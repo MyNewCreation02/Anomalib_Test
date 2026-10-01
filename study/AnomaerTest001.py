@@ -37,6 +37,8 @@ predictions = engine.predict(
     model=model,
     datamodule=datamodule,
 )
+
+# ※※※※読み込むファイル番号切り替え※※※※
 i = 10
 
 # 5. 可視化
